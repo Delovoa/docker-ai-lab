@@ -1,5 +1,10 @@
 #!/bin/bash
 
+####################################################
+# Installs / Updates Docker container for Portainer
+# https://www.portainer.io/
+####################################################
+
 # Exit if a command fails
 set -e
 

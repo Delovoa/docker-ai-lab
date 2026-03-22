@@ -1,8 +1,8 @@
-##############################
-#   Upgrade Linux Packages   #
-##############################
-
 #!/bin/bash
+
+#####################################################
+# Downloads the latest APT package updates for Linux
+#####################################################
 
 # Exit if a command fails
 set -e
@@ -17,4 +17,4 @@ sudo apt upgrade -y
 sudo apt autoremove -y
 
 # Success message
-echo "Success: All packages upgraded!"
+echo "SUCCESS: All packages upgraded!"

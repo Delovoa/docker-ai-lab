@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#####################################################
+# Installs / Updates Docker container for Open WebUI
+# https://openwebui.com/
+#####################################################
+
 # Exit if a command fails
 set -e
 
@@ -7,7 +12,7 @@ CONTAINER_NAME="open-webui"
 IMAGE_NAME="ghcr.io/open-webui/open-webui:main"
 DATA_VOLUME="open-webui"
 OLLAMA_API_URL="http://host.docker.internal:11434"
-PORT=3000
+PORT=8080
 
 echo "Pulling the latest $CONTAINER_NAME image..."
 docker pull "$IMAGE_NAME"

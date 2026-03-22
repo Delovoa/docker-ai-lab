@@ -1,5 +1,10 @@
 #!/bin/bash
 
+######################################################
+# Installs / Updates Docker container for SillyTavern
+# https://sillytavern.app/
+######################################################
+
 # Exit if a command fails
 set -e
 

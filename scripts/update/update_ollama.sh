@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#################################################
+# Installs / Updates Docker container for Ollama
+# https://ollama.com/
+#################################################
+
 # Exit if a command fails
 set -e
 

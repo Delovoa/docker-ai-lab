@@ -1,8 +1,8 @@
+#!/bin/bash
+
 ######################
 #   Install Docker   #
 ######################
-
-#!/bin/bash
 
 # Exit if a command fails
 set -e

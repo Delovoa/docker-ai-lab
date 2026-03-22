@@ -1,8 +1,8 @@
+#!/bin/bash
+
 ############################
 #  Install NVIDIA Driver   #
 ############################
-
-#!/bin/bash
 
 # Exit if a command fails
 set -e
@@ -15,14 +15,9 @@ sudo ubuntu-drivers autoinstall
 # Verify installation
 nvidia-smi
 
-# Success message
-echo "SUCCESS: NVIDIA driver installation complete!"
-
 #######################################
 #  Install NVIDIA Container Toolkit   #
 #######################################
-
-#!/bin/bash
 
 # Exit if a command fails
 set -e

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #####################################################
-# Downloads the latest APT package updates for Linux
+# Downloads the latest Linux package updates via APT
 #####################################################
 
 # Exit if a command fails

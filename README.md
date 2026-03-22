@@ -16,19 +16,19 @@ Easily try, upgrade, and clean up AI models so you can focus on experimentation,
 
 ## 🚀 Getting Started
 
-### 1 - Download the repository
+### 1 - Download the Git repo
 
 ```bash
 sudo apt update && sudo apt install -y git && sudo apt autoremove -y
-git clone https://github.com/Delovoa/docker-ai-lab
+git clone https://github.com/Delovoa/docker-ai-lab ~/docker-ai-lab
 ```
 
 ## 2 - Run the setup script(s)
 
-To install docker:
+To install Docker:
 
 ```bash
-cd docker-ai-lab/script/setup
+cd ~/docker-ai-lab/script/setup
 bash install_docker.sh
 ```
 
@@ -41,11 +41,11 @@ bash install_nvidia_container_toolkit.sh
 ## 3 - Install pre-configured containers (optional)
 
 ```bash
-cd ../update
+cd ~/docker-ai-lab/script/update
 bash [install-script-name].sh
 ```
 
-Each script automatically download and deploy the appropriate container with sane defaults.  You can also use these scripts to update the containers.
+Each script will automatically download and deploy the appropriate container with sane defaults.  You can also use these scripts to update the containers.
 
 ## 💡 Tips & Recommendations
 

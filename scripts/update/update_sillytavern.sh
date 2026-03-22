@@ -43,6 +43,7 @@ docker run -d \
 
 sleep 3
 
+# Verify the container is running
 if [ "$(docker inspect -f '{{.State.Running}}' "$CONTAINER_NAME" 2>/dev/null)" = "true" ]; then
     echo "SUCCESS: $CONTAINER_NAME is running!"
 else

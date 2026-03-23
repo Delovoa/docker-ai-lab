@@ -7,10 +7,10 @@ Easily try, upgrade, and clean up AI models so you can focus on experimentation,
 
 ## ⚠️ Prerequisites
 
-- This repository is designed for **Ubuntu Server**.  
-  It may **not work correctly on other Linux distributions**.  
-  Download Ubuntu Server here: [https://ubuntu.com/download/server](https://ubuntu.com/download/server)
-- A supported **NVIDIA GPU** is recommended if you want to run GPU-enabled models.
+- These scripts have been designed to run on **Ubuntu Server**.
+  There may **not work correctly on other Linux distributions**.
+  You can download Ubuntu Server here: [https://ubuntu.com/download/server](https://ubuntu.com/download/server)
+- A supported **NVIDIA GPU** is recommended in order to run GPU-enabled models.
 
 ---
 
@@ -38,26 +38,26 @@ If you have an NVIDIA GPU:
 bash install_nvidia_container_toolkit.sh
 ```
 
-## 3 - Install pre-configured containers (optional)
+## 3 - Install any pre-configured containers you wish
 
 ```bash
 cd ~/docker-ai-lab/script/update
 bash [install-script-name].sh
 ```
 
-Each script will automatically download and deploy the appropriate container with sane defaults.  You can also use these scripts to update the containers.
+Scripts automatically fetch and deploy the appropriate container using predefined defaults. They will also update any existing containers to the latest version.
 
 ## 💡 Tips & Recommendations
 
 If you are unsure where to begin...
 
-- Portainer provides a nice GUI for Docker:
+- Install Portainer to get a helpful Docker GUI:
 
 ```bash
 bash update_portainer.sh
 ```
 
-- Ollama and Open WebUI provide a ChatGPT equivalent:
+- Install Ollama and Open WebUI to get a ChatGPT equivalent:
 
 ```bash
 bash update_ollama.sh

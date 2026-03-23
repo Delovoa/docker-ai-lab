@@ -45,8 +45,8 @@ sudo usermod -aG docker $USER
 # Activate the changes to groups
 newgrp docker
 
-# Verify installation
-docker run --rm hello-world
-
 # Success message
 echo "SUCCESS: Docker installation complete!"
+
+# To verify installation, run:
+# docker run hello-world

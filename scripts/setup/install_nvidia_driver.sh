@@ -19,3 +19,6 @@ echo ""
 echo "========================================"
 echo " A reboot is required to complete setup "
 echo "========================================"
+
+# To verify installation (after rebooting), run:
+# nvidia-smi

@@ -25,7 +25,7 @@ Docker AI Lab provides a controlled, repeatable sandbox for AI experimentation. 
 
 ## ⚠️ Prerequisites
 
-- A fresh installation of [Ubuntu Server](https://ubuntu.com/download/server) (Minimized)
+- A fresh installation of [Ubuntu Server](https://ubuntu.com/download/server) (minimized)
 - A supported NVIDIA video card is highly recommended (for GPU-enabled models)
 
 ---
@@ -42,7 +42,7 @@ git clone https://github.com/Delovoa/docker-ai-lab ~/docker-ai-lab
 ### 2 - Install Docker (Required):
 
 ```bash
-cd ~/docker-ai-lab/script/setup
+cd ~/docker-ai-lab/scripts/setup
 bash install_docker.sh
 ```
 
@@ -60,14 +60,14 @@ sudo reboot now
 
 Install the NVIDIA Container Toolkit:
 ```bash
-cd ~/docker-ai-lab/script/setup
+cd ~/docker-ai-lab/scripts/setup
 bash install_nvidia_container_toolkit.sh
 ```
 
 ### 4 - Install some pre-configured containers (Optional)
 
 ```bash
-cd ~/docker-ai-lab/script/update
+cd ~/docker-ai-lab/scripts/update
 bash [install-script-name].sh
 ```
 

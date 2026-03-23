@@ -25,5 +25,5 @@ sudo systemctl restart docker
 # Success message
 echo "SUCCESS: NVIDIA Container Toolkit installation complete!"
 
-# To verify installation (after rebooting), run:
-# docker run --rm --gpus all nvidia/cuda nvidia-smi
+# To verify installation, run:
+# docker run --rm --gpus all nvidia/cuda:13.2.0-cudnn-devel-ubuntu24.04 nvidia-smi
